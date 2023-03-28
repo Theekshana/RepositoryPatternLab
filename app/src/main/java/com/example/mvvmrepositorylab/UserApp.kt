@@ -1,6 +1,7 @@
 package com.example.mvvmrepositorylab
 
 import android.app.Application
+import android.content.Context
 import com.example.mvvmrepositorylab.local.UserDatabase
 import com.example.mvvmrepositorylab.remote.RetrofitClient
 import retrofit2.Retrofit
