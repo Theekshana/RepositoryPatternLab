@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MVVMRepositoryLab</string>
+    <string name="service_call">Service Call</string>
 </resources>

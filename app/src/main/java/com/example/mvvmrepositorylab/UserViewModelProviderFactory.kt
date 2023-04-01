@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.mvvmrepositorylab.remote.ApiInterface
 import com.example.mvvmrepositorylab.repository.UserRepositoryImpl
 
-class UserViewModelProviderFactory(): ViewModelProvider.Factory {
+class UserViewModelProviderFactory() : ViewModelProvider.Factory {
 
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

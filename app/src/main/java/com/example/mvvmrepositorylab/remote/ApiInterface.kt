@@ -9,9 +9,10 @@ import retrofit2.http.GET
 interface ApiInterface {
 
     @GET("/api/users?page=2")
-    suspend fun getUsers() : Response<UserResponse>
+    suspend fun getUsers(): Response<UserResponse>
 
 }
+
 object RetrofitClient {
 
     fun getInstance(): Retrofit {
